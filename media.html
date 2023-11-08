@@ -171,7 +171,19 @@
         width: 38%;
     }
 }
-
+@media (max-width:1024px) {
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+    color: #fff;
+    /* font-size: 14px; */
+    background-color: #A72037;
+    line-height: 32px;
+    width: 30px !important;
+}
+}
+.pb-5 {
+    padding-bottom: 6rem!important;
+}
         .navbar {
             position: relative;
             z-index: 3;
@@ -189,12 +201,12 @@
 
         .custom-owl-prev {
             cursor: pointer;
-            left: 2%;
+            left: 12%;
         }
 
         .custom-owl-next {
             cursor: pointer;
-            right: 2%;
+            right: 12%;
         }
 
 
@@ -316,9 +328,9 @@
             color: #fff;
             font-size: 14px;
             background-color: #A72037;
-            height: 32px;
+            height: 50px;
             line-height: 32px;
-            width: 32px;
+            width: 50px;
         }
 
         .carousel-control-prev-icon:hover,
@@ -513,7 +525,7 @@
             left: 50%;
             transform: translateX(-50%);
             z-index: 1;
-            margin-top: -64px;
+            margin-top: -80px;
         }
 
         @media (max-width: 1000px) {
@@ -584,7 +596,7 @@
     <header class="media_items" id="home">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand mx-4" href="#">
                     <img src="/images/Pmf_logo.svg" alt="" srcset="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -618,7 +630,7 @@
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 mt-3">
                     <div id="customers-testimonials" class="owl-carousel">
                         <div class="item">
                             <div class="carousel p-4">
@@ -733,18 +745,20 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                <div class="carousel-section">
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
                                     data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"><i
-                                            class="fa fa-chevron-left"></i></span>
+                                            class="fa fa-chevron-left my-3"></i></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
                                 <a class="carousel-control-next" href="#carouselExampleControls" role="button"
                                     data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"><i
-                                            class="fa fa-chevron-right"></i></span>
+                                            class="fa fa-chevron-right my-3"></i></span>
                                     <span class="sr-only">Next</span>
                                 </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -839,13 +853,13 @@
                                 <a class="carousel-control-prev" href="#carouselExampleControlsServices" role="button"
                                     data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"><i
-                                            class="fa fa-chevron-left"></i></span>
+                                            class="fa fa-chevron-left my-3"></i></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
                                 <a class="carousel-control-next" href="#carouselExampleControlsServices" role="button"
                                     data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"><i
-                                            class="fa fa-chevron-right"></i></span>
+                                            class="fa fa-chevron-right my-3"></i></span>
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
