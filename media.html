@@ -254,7 +254,7 @@
         .about-mouse {
             position: relative;
             z-index: 3;
-            margin-top: -90px;
+            margin-top: -120px;
         }
 
         .about {
@@ -265,6 +265,7 @@
             text-align: center;
             margin: 20px;
             white-space: nowrap;
+            margin-left: auto;
         }
 
         .media_items {
@@ -573,6 +574,15 @@
             .footer {
                 white-space: nowrap;
             }
+            .about {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 43.57px;
+            padding-top: 28px;
+            text-align: center;
+            margin: 20px;
+            white-space: nowrap;
+        }
         }
 
         @media (min-width: 1205px) {
@@ -591,12 +601,12 @@
             }
         }
 
-        /* @media (min-width:1020px) {
-.new-filed{
-width: 100%;
-padding: 0%;
-}
-        } */
+        @media (min-width:1020px) {
+        .new-filed{
+             width: 100%;
+            padding: 0%;
+            }
+        }
 
         @media (max-width: 1020px) {
   .owl-carousel {
@@ -683,37 +693,40 @@ padding: 0%;
                 </div>
             </div>
         </nav>
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
-                <div class="col-sm-12 col-md-12 mt-3 new-filed">
-                    <div id="customers-testimonials" class="owl-carousel p-0">
-                        <div class="item">
-                            <div class="carousel">
-                                <img src="/images/kalayan.png" alt="" class="img-fluids">
+                <div class="">
+                    <div class="col-sm-12 col-md-12 mt-3 new-filed mb-5">
+                        <div id="customers-testimonials" class="owl-carousel p-0">
+                            <div class="item">
+                                <div class="carousel">
+                                    <img src="/images/kalayan.png" alt="" class="img-fluids">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel">
+                                    <img src="/images/ravi.png" alt="" class="img-fluids">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel">
+                                    <img src="/images/sam.png" alt="" class="img-fluids">
+                                </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="carousel">
-                                <img src="/images/ravi.png" alt="" class="img-fluids">
-                            </div>
+                        <div class="custom-owl-controls custom-owl-prev">
+                            <img src="/images/Vector_left.png" alt="">
                         </div>
-                        <div class="item">
-                            <div class="carousel">
-                                <img src="/images/sam.png" alt="" class="img-fluids">
-                            </div>
+                        <div class="custom-owl-controls custom-owl-next">
+                            <img src="/images/Vector_right.png" alt="">
                         </div>
-                    </div>
-                    <div class="custom-owl-controls custom-owl-prev">
-                        <img src="/images/Vector_left.png" alt="">
-                    </div>
-                    <div class="custom-owl-controls custom-owl-next">
-                        <img src="/images/Vector_right.png" alt="">
                     </div>
                 </div>
-            </div>
+                </div>
+                
             <div class="container media">
-                <p class="text-center media-heading mb-5">People Media Factory</p>
-                <p class="text-center media-paragraph mb-5">Lorem ipsum dolor sit amet consectetur. Cum euismod purus
+                <p class="text-center media-heading ">People Media Factory</p>
+                <p class="text-center media-paragraph mb-4">Lorem ipsum dolor sit amet consectetur. Cum euismod purus
                     quis egestas tortor purus eu tristique sit. Lorem ipsum dolor sit amet consectetur.
                     Cum euismod purus quis egestas tortor purus eu tristique sit. Dolor sit amet consectetur. Cum
                     euismod purus quis egestas </p>
@@ -839,7 +852,7 @@ padding: 0%;
                                     <div class="carousel-item active">
                                         <div class="row">
                                             <div class="col-md-7">
-                                                <p class="who-heading">Studio Setup/Locations<span class="line"></span>
+                                                <p class="who-heading digital-heading mb-4">Studio Setup/Locations<span class="line"></span>
                                                 </p>
                                                 <p>Lorem ipsum dolor sit amet consectetur. Cum euismod purus quis
                                                     egestas tortor purus eu tristique sit. Lorem ipsum dolor sit amet
@@ -874,7 +887,7 @@ padding: 0%;
                                         <div class="row">
 
                                             <div class="col-md-7">
-                                                <p class="who-heading">Who We Are <span class="line"></span></p>
+                                                <p class="who-heading digital-heading mb-4">Who We Are <span class="line"></span></p>
                                                 <p>Lorem ipsum dolor sit amet consectetur. Cum euismod purus quis
                                                     egestas tortor purus eu tristique sit. Lorem ipsum dolor sit amet
                                                     consectetur. Cum euismod purus quis egestas tortor purus eu
@@ -933,14 +946,14 @@ padding: 0%;
             <div class="row">
                 <div class="col-12">
 
-                    <section class="pt-5 pb-5">
+                    <section class="pt-2 pb-5">
                         <div class="container py-5">
                             <p class="about mb-5">Digital</p>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 ">
                                     <img src="/images/digital.png" alt="" class="img-fluid">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 my-auto">
                                     <p class="digital-heading">Technology <span class="line"></span></p>
                                     <p class="digital-paragraph">People Media Factory owns studio setup in Los Angeles with empty
                                         stages, set construction Green
@@ -970,13 +983,11 @@ padding: 0%;
 
     <div class="text-center mouse-img">
         <img src="./images/Mouse.png" alt=""></div>
-
         <div class="container-fluid production media_items" id="production">
             <div class="row">
                 <div class="col-12">
-
                     <section class="pt-5 pb-5">
-                        <div class="container py-5 ">
+                        <div class="container">
                             <p class="about mb-5">Production</p>
                             <div class="row production-crew">
                                 <div class="col-md-12">
@@ -1050,7 +1061,7 @@ padding: 0%;
     <div class="text-center mouse-img">
         <img src="./images/Mouse.png" alt=""></div>
     <section class="Get-in-Touch media_items" id="contact-us">
-        <div class="container py-5 touch-center">
+        <div class="container py-3 touch-center">
             <p class="about text-center">Get in Touch</p>
             <p class="glad">We will be glad to assist...</p>
             <form>
