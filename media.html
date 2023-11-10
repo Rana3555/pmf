@@ -88,6 +88,24 @@
 
             }
         }
+        @media (max-width: 1024px) {
+            .owl-carousel .owl-item.active img {
+                width: 270.0px;
+                height: 300.0px;
+            }
+            .owl-carousel .owl-item img {
+                margin: 0 auto 17px;
+                width: 275.0px;
+                height: 300.0px;
+                flex-shrink: 0;
+        }
+           .img-fluid{
+            width: 100%;
+           }
+           .owl-item cloned{
+            width: 120% !important;
+           }
+        }
 
         .nav-link {
             color: white;
@@ -431,6 +449,18 @@
                 font-weight: 700;
             }
         }
+        @media (max-width: 1440px) {
+            .custom-owl-prev {
+                cursor: pointer;
+                left: 6%;
+            }
+        }
+        @media (max-width: 1440px) {
+            .custom-owl-next {
+                cursor: pointer;
+                right: 6%;
+            }
+        }
 
         .line {
             width: 100px;
@@ -561,6 +591,31 @@
             }
         }
 
+        /* @media (min-width:1020px) {
+.new-filed{
+width: 100%;
+padding: 0%;
+}
+        } */
+
+        @media (max-width: 1020px) {
+  .owl-carousel {
+    width: 100%;
+  }
+
+  .owl-carousel .item {
+    width: 100%;
+  }
+
+  .custom-owl-controls {
+    display: none;
+  }
+
+  .owl-carousel .owl-nav {
+    display: block;
+  }
+}
+
         @media (min-width: 750px) and (max-width: 1000px) {
             .footer .col-sm-12 {
                 width: 50%;
@@ -630,21 +685,21 @@
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 mt-3">
-                    <div id="customers-testimonials" class="owl-carousel">
+                <div class="col-sm-12 col-md-12 mt-3 new-filed">
+                    <div id="customers-testimonials" class="owl-carousel p-0">
                         <div class="item">
-                            <div class="carousel p-4">
-                                <img src="/images/kalayan.png" alt="" class="img-fluid">
+                            <div class="carousel">
+                                <img src="/images/kalayan.png" alt="" class="img-fluids">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="carousel p-4">
-                                <img src="/images/ravi.png" alt="" class="img-fluid">
+                            <div class="carousel">
+                                <img src="/images/ravi.png" alt="" class="img-fluids">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="carousel p-4">
-                                <img src="/images/sam.png" alt="" class="img-fluid">
+                            <div class="carousel">
+                                <img src="/images/sam.png" alt="" class="img-fluids">
                             </div>
                         </div>
                     </div>
@@ -675,8 +730,8 @@
                 <section class="pb-5">
                     <div class="container media-carousel">
                         <p class="text-center about">About Us</p>
-                        <div class="col-md-12 mt-2">
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="col-md-12 mt-5">
+                            <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
                                 <div class="w-100 carousel-inner mb-5" role="listbox">
                                     <div class="carousel-item active">
                                         <div class="row">
@@ -778,7 +833,7 @@
                 <section class="pt-5 pb-5">
                     <div class="container media-carousel">
                         <p class="text-center about">Services</p>
-                        <div class="col-md-12 mt-2">
+                        <div class="col-md-12 mt-5">
                             <div id="carouselExampleControlsServices" class="carousel slide" data-ride="carousel">
                                 <div class="w-100 carousel-inner mb-5" role="listbox">
                                     <div class="carousel-item active">
@@ -880,7 +935,7 @@
 
                     <section class="pt-5 pb-5">
                         <div class="container py-5">
-                            <p class="about">Digital</p>
+                            <p class="about mb-5">Digital</p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <img src="/images/digital.png" alt="" class="img-fluid">
@@ -922,7 +977,7 @@
 
                     <section class="pt-5 pb-5">
                         <div class="container py-5 ">
-                            <p class="about">Production</p>
+                            <p class="about mb-5">Production</p>
                             <div class="row production-crew">
                                 <div class="col-md-12">
                                     <img src="/images/production.png" alt="" class="img-fluid">
@@ -1012,7 +1067,7 @@
                             <input type="email" class="form-control" id="Email">
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 my-4">
                         <div class="form-group">
                             <label for="Query">Query</label>
                             <textarea class="form-control" id="Query" rows="3"></textarea>
@@ -1026,7 +1081,7 @@
         </div>
     </section>
     <footer class="footer" style="background: #292929; color: #ffffff;">
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-4">
                     <p class="copyright text-center text-sm-start py-3">
